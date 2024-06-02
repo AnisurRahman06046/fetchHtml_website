@@ -1,6 +1,0 @@
-setup.py
-htmlExtractor2.egg-info/PKG-INFO
-htmlExtractor2.egg-info/SOURCES.txt
-htmlExtractor2.egg-info/dependency_links.txt
-htmlExtractor2.egg-info/requires.txt
-htmlExtractor2.egg-info/top_level.txt

@@ -17,6 +17,14 @@
         "documentation": {}
     },
     {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
         "label": "setup",
         "importPath": "setuptools",
         "description": "setuptools",
@@ -33,12 +41,48 @@
         "documentation": {}
     },
     {
-        "label": "fetchHtml",
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "htmlExtractor",
         "kind": 2,
-        "importPath": "fetchHtml.fetchHtml",
-        "description": "fetchHtml.fetchHtml",
-        "peekOfCode": "def fetchHtml(webiste,parser):\n    url = webiste\n    r = requests.get(url)\n    soup_data = BeautifulSoup(r.text,parser)\n    return soup_data",
-        "detail": "fetchHtml.fetchHtml",
+        "importPath": "build.lib.libname.htmlExtractor",
+        "description": "build.lib.libname.htmlExtractor",
+        "peekOfCode": "def htmlExtractor(webiste,parser):\n    url = webiste\n    r = requests.get(url)\n    soup_data = BeautifulSoup(r.text,parser)\n    return soup_data",
+        "detail": "build.lib.libname.htmlExtractor",
+        "documentation": {}
+    },
+    {
+        "label": "htmlExtractor",
+        "kind": 2,
+        "importPath": "libname.htmlExtractor",
+        "description": "libname.htmlExtractor",
+        "peekOfCode": "def htmlExtractor(webiste,parser):\n    url = webiste\n    r = requests.get(url)\n    soup_data = BeautifulSoup(r.text,parser)\n    return soup_data",
+        "detail": "libname.htmlExtractor",
+        "documentation": {}
+    },
+    {
+        "label": "HERE",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "HERE = pathlib.Path(__file__).parent\nREADME = (HERE / \"readme.MD\").read_text()\n# Setting up\nsetup(\nname='htmlExtractor',  \n    version='0.0.3',\n    packages=find_packages(),\n    install_requires=[\n        'requests',\n        'beautifulsoup4',",
+        "detail": "setup",
+        "documentation": {}
+    },
+    {
+        "label": "README",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "README = (HERE / \"readme.MD\").read_text()\n# Setting up\nsetup(\nname='htmlExtractor',  \n    version='0.0.3',\n    packages=find_packages(),\n    install_requires=[\n        'requests',\n        'beautifulsoup4',\n    ],",
+        "detail": "setup",
         "documentation": {}
     }
 ]
