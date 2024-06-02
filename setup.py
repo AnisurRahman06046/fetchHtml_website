@@ -1,13 +1,16 @@
 from setuptools import setup, find_packages
 import pathlib
 
+# The directory containing this file
 HERE = pathlib.Path(__file__).parent
+
+# The text of the README file
 README = (HERE / "readme.MD").read_text()
-# Setting up
+
 setup(
-name='htmlExtractor',  
-    version='0.0.3',
-    packages=find_packages(),
+    name='htmlExtractor',
+    version='1.0.0',  # Incremented version number for updates
+    packages=find_packages(),  # Automatically find packages in the project
     install_requires=[
         'requests',
         'beautifulsoup4',

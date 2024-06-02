@@ -1,1 +1,1 @@
-from htmlExtractor import htmlExtractor
+from .htmlExtractor import htmlExtractor

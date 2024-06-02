@@ -72,7 +72,7 @@
         "kind": 5,
         "importPath": "setup",
         "description": "setup",
-        "peekOfCode": "HERE = pathlib.Path(__file__).parent\nREADME = (HERE / \"readme.MD\").read_text()\n# Setting up\nsetup(\nname='htmlExtractor',  \n    version='0.0.3',\n    packages=find_packages(),\n    install_requires=[\n        'requests',\n        'beautifulsoup4',",
+        "peekOfCode": "HERE = pathlib.Path(__file__).parent\n# The text of the README file\nREADME = (HERE / \"readme.MD\").read_text()\nsetup(\n    name='htmlExtractor',\n    version='1.0.0',  # Incremented version number for updates\n    packages=find_packages(),  # Automatically find packages in the project\n    install_requires=[\n        'requests',\n        'beautifulsoup4',",
         "detail": "setup",
         "documentation": {}
     },
@@ -81,7 +81,7 @@
         "kind": 5,
         "importPath": "setup",
         "description": "setup",
-        "peekOfCode": "README = (HERE / \"readme.MD\").read_text()\n# Setting up\nsetup(\nname='htmlExtractor',  \n    version='0.0.3',\n    packages=find_packages(),\n    install_requires=[\n        'requests',\n        'beautifulsoup4',\n    ],",
+        "peekOfCode": "README = (HERE / \"readme.MD\").read_text()\nsetup(\n    name='htmlExtractor',\n    version='1.0.0',  # Incremented version number for updates\n    packages=find_packages(),  # Automatically find packages in the project\n    install_requires=[\n        'requests',\n        'beautifulsoup4',\n    ],\n    author='Md Anisur Rahman',",
         "detail": "setup",
         "documentation": {}
     }
