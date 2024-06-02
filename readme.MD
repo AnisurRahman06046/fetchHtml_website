@@ -9,9 +9,9 @@ Here's a quick example of how to use the `htmlExtractor` package:
 
 
 # Fetch and parse HTML data from a website
-`from htmlExtractor import htmlExtractor`
+`from htmlExtractor import extractHtml`
 
-`soup = htmlExtractor('http://example.com', 'html.parser')`
+`soup = extractHtml('http://example.com', 'html.parser')`
 
 `print(soup)`
 ## Details

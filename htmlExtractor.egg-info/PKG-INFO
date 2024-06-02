@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: htmlExtractor
-Version: 1.0.0
+Version: 0.0.1
 Summary: A simple package to fetch HTML data from a website
 Home-page: https://github.com/AnisurRahman06046/fetchHtml_website.git
 Author: Md Anisur Rahman
@@ -24,9 +24,9 @@ Here's a quick example of how to use the `htmlExtractor` package:
 
 
 # Fetch and parse HTML data from a website
-`from htmlExtractor import htmlExtractor`
+`from htmlExtractor import extractHtml`
 
-`soup = htmlExtractor('http://example.com', 'html.parser')`
+`soup = extractHtml('http://example.com', 'html.parser')`
 
 `print(soup)`
 ## Details
