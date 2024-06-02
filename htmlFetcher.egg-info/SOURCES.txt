@@ -1,0 +1,6 @@
+setup.py
+htmlFetcher.egg-info/PKG-INFO
+htmlFetcher.egg-info/SOURCES.txt
+htmlFetcher.egg-info/dependency_links.txt
+htmlFetcher.egg-info/requires.txt
+htmlFetcher.egg-info/top_level.txt
